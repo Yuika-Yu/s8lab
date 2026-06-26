@@ -21,11 +21,11 @@ Eテレ「ことばドリル」が視聴できます。
 
 ページを下へスクロールすると、動画の内容を復習できるゲームがあります。
 
-![ことばドリル ゲーム一覧](https://cdn-ak.f.st-hatena.com/images/fotolife/y/yuika-tan/20200409/20200409103940.png)
+![ことばドリル ゲーム一覧](./assets/g1-japanese-260626-01.png)
 
 さらに下へ進むと、動画一覧が表示されます。
 
-![ことばドリル 動画一覧](https://cdn-ak.f.st-hatena.com/images/fotolife/y/yuika-tan/20200409/20200409104323.png)
+![ことばドリル 動画一覧](./assets/g1-japanese-260626-02.png)
 
 ---
 
