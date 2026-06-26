@@ -1,0 +1,56 @@
+---
+title: "【小1算数】家庭学習支援サイト"
+description: "小学1年生の算数の家庭学習に使える映像教材・無料プリント・アプリをまとめました。"
+pubDatetime: 2026-06-26T12:00:00+09:00
+tags:
+  - education
+  - math
+---
+
+# 【小1算数】家庭学習支援サイト
+
+## 映像教材
+
+iPadやスマホですぐに取り組める映像教材です。
+
+### [さんすう犬ワン［算数 小1〜3］｜NHK for School](https://www.nhk.or.jp/sansuu/wan/)
+
+Eテレ「さんすう犬ワン」が見られるサイトです。
+
+下の方にスクロールすると放送リストがあります。
+
+![さんすう犬ワンの放送リスト](https://cdn-ak.f.st-hatena.com/images/fotolife/y/yuika-tan/20200409/20200409114440.png)
+
+小1におすすめの放送回はこちらです。
+
+- [第2回 なんばんめ？〜順番〜](https://www.nhk.or.jp/sansuu/wan/?das_id=D0005160052_00000)
+- [第3回 ものさし つくれる？〜長さの単位〜](https://www.nhk.or.jp/sansuu/wan/?das_id=D0005160054_00000)
+- [第4回 かぞえられるかな？〜10より大きい数〜](https://www.nhk.or.jp/sansuu/wan/?das_id=D0005160055_00000)
+- [第5回 まるってなに？〜円〜](https://www.nhk.or.jp/sansuu/wan/?das_id=D0005160056_00000)
+- [第7回 どちらがながい？〜長さくらべ〜](https://www.nhk.or.jp/sansuu/wan/?das_id=D0005160058_00000)
+- [第9回 「〜より」おおい？〜図にあらわそう〜](https://www.nhk.or.jp/sansuu/wan/?das_id=D0005160060_00000)
+- [第14回 かたち つくれる？〜かたちづくり〜](https://www.nhk.or.jp/sansuu/wan/?das_id=D0005160065_00000)
+- [第18回 なんじなんぷん？〜時こくのよみ方〜](https://www.nhk.or.jp/sansuu/wan/?das_id=D0005160069_00000)
+
+---
+
+## ドリル・プリント教材
+
+印刷して取り組める教材です。
+
+- [Z会 さんすう総合問題](https://www.zkai.co.jp/wp-content/uploads/2020/03/02115021/15ca2b80fb49f8273816eb42f52c78d2.pdf)
+- [Z会 さんすう総合問題（答え）](https://www.zkai.co.jp/wp-content/uploads/2020/03/02115017/28064ea0c0ba3284cdc1d46f85aff324.pdf)
+- [算数ドリル「1年のすう・りょう・ずけい」無料ダウンロード｜ドリルの王様](https://happylilac.net/ssk/sk1808201132.html)
+- [算数ドリル「1年のけいさん」無料ダウンロード｜ドリルの王様](https://happylilac.net/ssk/sk1806200949.html)
+- [花まるワーク1年前期 - 教育出版](https://www.kyoiku-shuppan.co.jp/textbook/shou/sansu/document/ducu2/docu102/2496.html)
+
+---
+
+## アプリ
+
+### Think!Think!
+
+計算問題以外の思考力を育てる問題に取り組めるアプリです。家庭学習でも使いやすくおすすめです。
+
+- [Think!Think! シンクシンク 思考力が育つ教育アプリ（App Store）](https://apps.apple.com/jp/app/think-think-%E3%82%B7%E3%83%B3%E3%82%AF%E3%82%B7%E3%83%B3%E3%82%AF-%E6%80%9D%E8%80%83%E5%8A%9B%E3%81%8C%E8%82%B2%E3%81%A4%E6%95%99%E8%82%B2%E3%82%A2%E3%83%97%E3%83%AA/id1082259392)
+- [Think!Think! : Brain training games for kids（Google Play）](https://play.google.com/store/apps/details?id=com.hanamarulab.thinkthinkapp)
