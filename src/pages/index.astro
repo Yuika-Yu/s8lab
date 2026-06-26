@@ -33,40 +33,43 @@ const homePath = getRelativeLocaleUrl(locale, "");
     data-home-path={homePath}
     class="app-layout"
   >
-<section id="hero" class="border-border border-b pt-8 pb-8">
-  <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
+<section id="hero" class="border-border border-b pt-8 pb-10">
+  <h1 class="my-4 text-4xl font-bold sm:my-8 sm:text-5xl">
     S8 Lab
   </h1>
 
   <p class="text-lg leading-8">
-    教育・健康・AI・暮らしをテーマに、日々の学びと実践に役立つ知識を発信するメディアです。
+    知識を、もっと楽しく。
   </p>
 
-  <div class="mt-6 grid gap-3 sm:grid-cols-2">
-    <LinkButton href="/posts/health">
-      Health
-    </LinkButton>
-    <LinkButton href="/posts/education">
-      Education
-    </LinkButton>
-    <LinkButton href="/posts/ai">
-      AI
-    </LinkButton>
-    <LinkButton href="/posts/life">
-      Life
-    </LinkButton>
+  <p class="mt-3 leading-8">
+    教育・健康・AIを中心に、日々の学びと実践に役立つ情報を発信しています。
+  </p>
+</section>
+
+<section id="categories" class="border-border border-b py-10">
+
+  <h2 class="text-2xl font-semibold tracking-wide">Categories</h2>
+
+  <div class="mt-6 grid gap-4 sm:grid-cols-2">
+
+    <LinkButton href="/posts/education">🎓 Education</LinkButton>
+
+    <LinkButton href="/posts/health">🥗 Health</LinkButton>
+
+    <LinkButton href="/posts/ai">🤖 AI</LinkButton>
+
   </div>
 
-  {
-    socials.length > 0 && (
-      <div class="mt-6 flex max-sm:flex-col sm:items-center">
-        <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">
-          SNS:
-        </div>
-        <Socials />
-      </div>
-    )
-  }
+</section>
+
+<section id="projects" class="border-border border-b py-10">
+  <h2 class="text-2xl font-semibold tracking-wide">Other Projects</h2>
+
+  <div class="mt-6 grid gap-4 sm:grid-cols-2">
+    <LinkButton href="https://yuikatan.com">🏠 家事・暮らしブログ</LinkButton>
+    <LinkButton href="https://note.com/s8lab">📝 note</LinkButton>
+  </div>
 </section>
 
     {
