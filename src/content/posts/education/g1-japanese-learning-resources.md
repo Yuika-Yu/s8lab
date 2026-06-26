@@ -21,11 +21,11 @@ Eテレ「ことばドリル」が視聴できます。
 
 ページを下へスクロールすると、動画の内容を復習できるゲームがあります。
 
-![ことばドリル ゲーム一覧](./assets/g1-japanese-260626-01.png)
+![ことばドリル ゲーム一覧](/images/education/g1-japanese-learning-resources-01.png)
 
 さらに下へ進むと、動画一覧が表示されます。
 
-![ことばドリル 動画一覧](./assets/g1-japanese-260626-02.png)
+![ことばドリル 動画一覧](/images/education/g1-japanese-learning-resources-02.png)
 
 ---
 
