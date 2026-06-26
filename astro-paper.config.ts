@@ -2,19 +2,19 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://astro-paper.pages.dev/",
-    title: "AstroPaper",
-    description: "A minimal, responsive and SEO-friendly Astro blog theme.",
-    author: "Sat Naing",
-    profile: "https://satna.ing",
-    ogImage: "default-og.jpg",
-    lang: "en",
-    timezone: "Asia/Bangkok",
-    dir: "ltr",
-  },
+  url: "https://s8lab.com",
+  title: "幸ラボ",
+  description:
+    "教育・健康・暮らしをテーマに、日々の生活や学びに役立つ知識を発信するメディア。",
+  author: "Yuika",
+  ogImage: "default-og.jpg", // 後で og.png に変更
+  lang: "ja",
+  timezone: "Asia/Tokyo",
+  dir: "ltr",
+},
   posts: {
-    perPage: 4,
-    perIndex: 4,
+    perPage: 10,
+    perIndex: 6,
     scheduledPostMargin: 15 * 60 * 1000,
   },
   features: {
@@ -22,17 +22,12 @@ export default defineAstroPaperConfig({
     dynamicOgImage: true,
     showArchives: true,
     showBackButton: true,
-    editPost: {
-      enabled: true,
-      url: "https://github.com/satnaing/astro-paper/edit/main/",
-    },
+    editPost: { enabled: false },
     search: "pagefind",
   },
   socials: [
-    { name: "github",   url: "https://github.com/satnaing/astro-paper" },
     { name: "x",        url: "https://x.com/username" },
-    { name: "linkedin", url: "https://www.linkedin.com/in/username/" },
-    { name: "mail",     url: "mailto:yourmail@gmail.com" },
+    { name: "instagram", url: "https://www.linkedin.com/in/username/" },
   ],
   shareLinks: [
     { name: "whatsapp", url: "https://wa.me/?text=" },
@@ -40,6 +35,5 @@ export default defineAstroPaperConfig({
     { name: "x",        url: "https://x.com/intent/post?url=" },
     { name: "telegram", url: "https://t.me/share/url?url=" },
     { name: "pinterest", url: "https://pinterest.com/pin/create/button/?url=" },
-    { name: "mail",     url: "mailto:?subject=See%20this%20post&body=" },
   ],
 });
