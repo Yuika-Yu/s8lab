@@ -1,0 +1,81 @@
+---
+interface LinkItem {
+  label: string;
+  url: string;
+}
+
+interface Props {
+  type: string;
+  title: string;
+  image?: string;
+  rating?: number;
+  age?: string;
+  price?: string;
+  description?: string;
+  links?: LinkItem[];
+}
+
+const {
+  type,
+  title,
+  image,
+  rating,
+  age,
+  price,
+  description,
+  links = [],
+} = Astro.props;
+
+const stars = rating ? "★★★★★".slice(0, rating) : "";
+---
+
+<div class="my-6 rounded-2xl border border-border bg-card p-5 shadow-sm">
+  <div class="mb-3 text-sm font-semibold text-accent">
+    {type}
+  </div>
+
+  {image && (
+    <img
+      src={image}
+      alt={title}
+      class="mb-4 w-full rounded-xl object-cover"
+      loading="lazy"
+    />
+  )}
+
+  <h3 class="text-xl font-bold">
+    {title}
+  </h3>
+
+  {rating && (
+    <div class="mt-2 text-sm" aria-label={`おすすめ度 ${rating} / 5`}>
+      おすすめ度：{stars}
+    </div>
+  )}
+
+  <div class="mt-3 space-y-1 text-sm">
+    {age && <p><strong>対象：</strong>{age}</p>}
+    {price && <p><strong>料金：</strong>{price}</p>}
+  </div>
+
+  {description && (
+    <p class="mt-3 text-sm leading-7">
+      {description}
+    </p>
+  )}
+
+  {links.length > 0 && (
+    <div class="mt-4 flex flex-wrap gap-2">
+      {links.map(link => (
+        <a
+          href={link.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="rounded-full border border-border px-4 py-2 text-sm font-semibold hover:text-accent"
+        >
+          ▶ {link.label}
+        </a>
+      ))}
+    </div>
+  )}
+</div>
